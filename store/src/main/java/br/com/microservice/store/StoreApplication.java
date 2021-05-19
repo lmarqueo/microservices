@@ -1,13 +1,13 @@
-package br.com.microservice.loja;
+package br.com.microservice.store;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LojaApplication {
+public class StoreApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LojaApplication.class, args);
+        SpringApplication.run(StoreApplication.class, args);
     }
 
 }
