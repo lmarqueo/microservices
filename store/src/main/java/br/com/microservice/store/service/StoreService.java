@@ -13,7 +13,7 @@ public class StoreService {
     public void makePurchase(StoreDTO store) {
         RestTemplate client = new RestTemplate();
         ResponseEntity<SupplierDTO> supplierDTOResponseEntity =
-                client.exchange("http://localhost:8081/info" + store.getAddress().getState(),
+                client.exchange("http://localhost:8081/info/" + store.getAddress().getState(),
                     HttpMethod.GET, null, SupplierDTO.class);
         System.out.println(supplierDTOResponseEntity.getBody().getAddress());
     }

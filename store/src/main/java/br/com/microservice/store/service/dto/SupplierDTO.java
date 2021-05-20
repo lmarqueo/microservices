@@ -4,6 +4,8 @@ public class SupplierDTO {
 
     private String address;
 
+    public SupplierDTO() {}
+
     public SupplierDTO(String address) {
         this.address = address;
     }
