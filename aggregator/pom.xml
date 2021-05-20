@@ -16,7 +16,7 @@
     <modules>
         <module>../store</module>
         <module>../supplier</module>
-        <module>../eureka-service</module>
+        <module>../eureka-server</module>
     </modules>
 
 </project>
