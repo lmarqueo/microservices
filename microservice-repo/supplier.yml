@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/supplier
+    username: supplier-user
+    password: ysKYfSRgBx9T8PIDOi5dyQhnA3S1h1wU
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
